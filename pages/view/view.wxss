@@ -1,0 +1,9 @@
+/* pages/view/view.wxss */
+.box{
+  width: 100px;
+  background-color: red;
+}
+.box1{
+  background-color: green;
+  width: 200px;
+}

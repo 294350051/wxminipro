@@ -1,0 +1,6 @@
+<!--pages/view/view.wxml-->
+<!-- <text>pages/view/view.wxml</text> -->
+<view class="box1">
+  <view class="box"> 哈哈哈 </view>
+</view>
+<view> 呵呵 </view>

@@ -1,0 +1,14 @@
+<!--pages/button/button.wxml-->
+<!-- <text>pages/button/button.wxml</text> -->
+<button>按钮</button>
+<!-- size 属性 -->
+<button size="mini">按钮</button>
+<button size="mini">按钮</button>
+<!-- type属性 -->
+<button size="mini" type="primary">按钮</button>
+<button size="mini" type="default">按钮</button>
+<button size="mini" type="warn">按钮</button>
+<!-- 镂空效果 -->
+<button size="mini" plain>按钮</button>
+<!-- 登录效果 -->
+<button size="mini" loading>按钮</button>

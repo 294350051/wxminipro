@@ -1,0 +1,15 @@
+<!--pages/image/image.wxml-->
+<!-- <text>pages/image/image.wxml</text> -->
+<!-- image 有默认宽高，可以写成单标签，双标签 
+     行内块级元素 inline-block
+-->
+<image/>
+<text>aaa</text>
+<!-- src 可以是本地地址（绝对地址/相对地址）/远程地址 -->
+<image src="../../assets/tabbar/cart.png"></image>
+<image src="/assets/tabbar/cart.png"></image>
+<!-- 选中相册之中的图片 或者拍照 -->
+<button bindtap="handleChooseAlbum">选中图片</button>
+<image src="{{imagePath}}"></image>
+<!-- 长按识别二维码 循环1次 懒加载三屏 -->
+<image show-menu-by-longpress wx:for="{{1}}" lazy-load src="https://res.wx.qq.com/open/zh_CN/htmledition/res/img/pic/mp-dev-guide/dev_code3b8804.jpg"></image>

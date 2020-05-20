@@ -1,0 +1,11 @@
+<!--pages/scroll/scroll.wxml-->
+<!-- <text>pages/scroll/scroll.wxml</text> -->
+<!-- 水平滚动 -->
+<scroll-view class="scroll1" scroll-x>
+   <view wx:for="{{10}}" class="item1">{{item}}</view>
+</scroll-view>
+<!-- 垂直滚动 -->
+<scroll-view class="scroll2" scroll-y>
+   <view wx:for="{{10}}" class="item2">{{item}}</view>
+</scroll-view>
+<!-- 其他补充 -->

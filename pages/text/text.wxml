@@ -1,0 +1,11 @@
+<!--pages/text/text.wxml-->
+<text>pages/text/text.wxml\n</text>
+<text>你好小程序\n</text>
+<!-- 下面的文字在真机调试中可选中 -->
+<text selectable>你好，唐朝\n</text>
+<!-- 决定空格大小 ensp 半个中文字符大小 emsp 一个中文字符大小 -->
+<text selectable space="nbsp">你好 唐朝\n</text>
+<text selectable space="ensp">你好 唐朝\n</text>
+<text selectable space="emsp">你好 唐朝\n</text>
+<!-- decode属性 是否解码文本 -->
+<text decode>5 &gt; 3</text>

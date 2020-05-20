@@ -1,0 +1,8 @@
+<!--pages/input/input.wxml-->
+<!-- <text>pages/input/input.wxml</text> -->
+<!-- input 基本使用 -->
+<input type="idcard" value="哈哈"></input>
+<input type="password"></input>
+<input placeholder="请输入内容"></input>
+<!-- input绑定事件 -->
+<input bindinput="handleInput" bindfocus="handleFocus" bindblur="handleBlur"></input>
