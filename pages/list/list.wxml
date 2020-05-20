@@ -1,0 +1,13 @@
+<!--pages/list/list.wxml-->
+<text>pages/list/list.wxml</text>
+<view>hello {{name}}</view>
+<view>{{student[0].name}}</view>
+<view wx:for="{{student}}">{{item.name}}-{{item.age}}</view>
+<view>当前计数：{{counter}}</view>
+<button size="mini" bindtap='handleBtnClick'>+</button>
+<button size="mini" bindtap='handleSubtraction'>-</button>
+<!-- 2.点击获取用户信息 -->
+<button size="mini" open-type='getUserInfo' bindgetuserinfo="handleGetUserInfo">获取授权</button>
+<!-- 3.展示获取的用户信息 -->
+<open-data type='userNickName'></open-data>
+<open-data type='userAvatarUrl'></open-data>

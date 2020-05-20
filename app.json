@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/list/list",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ff5777",
+    "navigationBarTitleText": "当饭吃",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#ff5777",
+    "list": [
+    {
+      "pagePath": "pages/index/index",
+      "text": "text",
+      "iconPath": "assets/tabbar/home.png",
+      "selectedIconPath": "assets/tabbar/home_active.png"
+    },
+    {
+      "pagePath": "pages/list/list",
+      "text": "json",
+      "iconPath": "assets/tabbar/cart.png",
+      "selectedIconPath": "assets/tabbar/cart_active.png"
+    }
+  ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
